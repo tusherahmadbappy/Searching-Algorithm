@@ -19,16 +19,8 @@ int binarysearch(int arr[],int size)
                 mid++;
                 if (arr[mid] == SearchValue)
                     cout << "SearchValue is found and location is: " << mid << " Low: " << l << endl;
-                mid--;
-                if(arr[mid]==SearchValue){
-                    mid--;
-                    if (arr[mid] == SearchValue)
-                        cout << "SearchValue is found and location is: " << mid << " Low: " << l << endl;
-                }
+                
             }
-
-
-
 
             break;
 
