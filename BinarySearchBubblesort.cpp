@@ -42,7 +42,7 @@ int binarysearch(int arr[],int size)
 
 }
 
-void bubblesort(int *a,int *b)
+void swap(int *a,int *b)
 {
     int temp=*a;
     *a=*b;
